@@ -236,3 +236,17 @@ hr{
     background-image: linear-gradient(to bottom right, rgba(44, 168, 44, 0.596), rgba(255, 0, 157, 0.486));
 
 }
+#footer {
+    background: #594986;
+    background: -webkit-linear-gradient(top left, #594986, #3537CE);
+    background: -moz-linear-gradient(top left, #594986, #3537CE);
+    background: linear-gradient(to bottom right, #594986, #3537CE);
+    opacity: .8;
+    padding: 20px 0;
+}
+#footer p{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+}
