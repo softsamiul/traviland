@@ -99,7 +99,7 @@ body{
 }
 
 /* Why us section design  */
-#why-us, #package-section {
+#why-us, #package-section, #contact {
     padding: 100px;
     background-image: linear-gradient(to bottom right, rgba(44, 168, 44, 0.596), rgba(255, 0, 157, 0.486)), url(img/hero-img.jpg);
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body{
     background-size: cover;
     text-align: center;
 }
-.why-us-header, .pricing-header {
+.why-us-header, .pricing-header, .form-heading {
     font-size: 40px;
     color: #fff;
     margin: 0;
@@ -205,4 +205,24 @@ hr{
 }
 .booknow-btn:hover {
     background-image: linear-gradient(to bottom right, rgba(255, 0, 157, 0.486), rgba(44, 168, 44, 0.596) );
+}
+.form-design {
+    width: 50%;
+    margin: 0 auto;
+}
+.form-design  p {
+    text-align: left !important;
+
+}
+.form-design  p  label {
+    color: #fff;
+    font-size: 18px;
+}
+.form-control {
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #000;
+    font-size: 14px;
+    border-top-left-radius: 10px;
 }
